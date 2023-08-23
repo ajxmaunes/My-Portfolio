@@ -23,7 +23,7 @@ const Card = styled.div`
     }
 
     @media only screen and (max-width: 768px){
-        width: 395px;
+        width: 380px;
         height: 530px;
     }
 `;
