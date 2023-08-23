@@ -206,7 +206,7 @@ const Navbar = () => {
               <MobileMenuLinks href='#projects' onClick={() => {
                 setOpen(!open)
               }}>Projects</MobileMenuLinks>
-              <MobileMenuLinks href='#education' onClick={() => {
+              <MobileMenuLinks href='#contact' onClick={() => {
                 setOpen(!open)
               }}>Contact</MobileMenuLinks>
               <MobileMenuLinks style={{
