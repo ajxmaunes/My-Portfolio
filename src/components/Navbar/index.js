@@ -165,7 +165,7 @@ const Navbar = () => {
   return (
     <Nav className='nav'>
         <NavContainer>
-          <NavLogo to="/">
+          <NavLogo to="https://ajxmaunes.github.io/My-Portfolio/">
             <a style={{ 
               display: "flex", 
               alignItems: "center", 
