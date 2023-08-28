@@ -15,6 +15,9 @@ align-items: top;
 justify-content: center;
 overflow-y: scroll;
 transition: all 0.5s ease;
+@media only screen and (max-width: 600px) {
+    overflow-y: none;
+}
 `;
 
 const Wrapper = styled.div`
@@ -28,6 +31,9 @@ padding: 30px;
 display: flex;
 flex-direction: column;
 position: relative;
+@media only screen and (max-width: 600px) {
+    padding: 15px;
+}
 `;
 
 const Title = styled.div`
@@ -69,6 +75,9 @@ const Image = styled.img`
     object-fit: cover;
     margin-top: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    @media only screen and (max-width: 600px) {
+        margin-top: 20px;
+    }
 `;
 
 const Label = styled.div`
@@ -141,6 +150,7 @@ const MemberName = styled.div`
     color: ${({ theme }) => theme.text_primary};
     @media only screen and (max-width: 600px) {
         font-size: 14px;
+        width: 150px;
     }
 `;
 
