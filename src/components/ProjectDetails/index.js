@@ -16,7 +16,7 @@ justify-content: center;
 overflow-y: scroll;
 transition: all 0.5s ease;
 @media only screen and (max-width: 600px) {
-    overflow-y: none;
+    overflow-y: hidden;
 }
 `;
 
@@ -150,7 +150,8 @@ const MemberName = styled.div`
     color: ${({ theme }) => theme.text_primary};
     @media only screen and (max-width: 600px) {
         font-size: 14px;
-        width: 150px;
+        width: 100%;
+        justify-content: space-between;
     }
 `;
 
