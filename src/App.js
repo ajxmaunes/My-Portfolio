@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { ThemeProvider } from 'styled-components';
 import { darkTheme } from './utils/Themes';
@@ -12,6 +12,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects/index.js';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ProjectDetails from "./components/ProjectDetails";
 
 const Body = styled.div`
     background-color: #F9F9F9;
@@ -24,6 +25,8 @@ const Wrapper = styled.div`
 `;
 
 function App() {
+    const [openModal, setOpenModal] = useState({ state: false, project: null });
+    console.log(openModal)
   return (
     <ThemeProvider theme={darkTheme}>
       <Router>
@@ -34,12 +37,15 @@ function App() {
           <Skills />
           {/* <Experience /> */}
         </Wrapper>
-        <Projects />
+        <Projects openModal={openModal} setOpenModal={setOpenModal} />
         <Wrapper>
           {/* <Education /> */}
           <Contact />
         </Wrapper>
         <Footer />
+        {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          }
       </Body>
       </Router>
     </ThemeProvider>

@@ -85,7 +85,7 @@ const ContactInput = styled.input`
   color: ${({ theme }) => theme.text_primary};
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 2px solid #205295;
   }
 `;
 
@@ -99,7 +99,7 @@ const ContactInputMessage = styled.textarea`
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 2px solid #205295;
   }
 `;
 
