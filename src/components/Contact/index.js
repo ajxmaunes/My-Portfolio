@@ -65,6 +65,10 @@ const ContactForm = styled.form`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
+
+  @media only screen and (max-width: 768px){
+    padding: 12px;
+  }
 `;
 
 const ContactTitle = styled.div`
@@ -73,7 +77,9 @@ const ContactTitle = styled.div`
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
 
-  
+  @media only screen and (max-width: 768px){
+    text-align: center;
+  }
 `;
 
 const ContactInput = styled.input`

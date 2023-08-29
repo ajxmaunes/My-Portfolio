@@ -14,8 +14,9 @@ const Nav = styled.div`
   position: sticky;
   top: 0;
   z-index: 10;
-  @media screen and (max-width: 90px) {
+  @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+    height: 60px;
   }
 
   &.nav {
@@ -133,7 +134,7 @@ const MobileMenu = styled.div`
   align-items: center;
   gap: 16px;
   position: absolute;
-  top: 80px;
+  top: 60px;
   right: 0;
   width: 100%;
   padding: 12px 40px 24px 40px;
@@ -211,8 +212,9 @@ const Navbar = () => {
               }}>Contact</MobileMenuLinks>
               <MobileMenuLinks style={{
                 padding: '10px 16px',
-                borderRadius: "20px",
-                background: `${theme.primary}`,
+                border: '1px solid black',
+                borderRadius: '20px',
+                background: '#205295',
                 color: 'white',width: 'max-content'}} 
                 href="/"
                 target="_blank"
