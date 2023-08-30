@@ -3,6 +3,11 @@ import { Link as linkR } from 'react-router-dom'
 import styled, { useTheme } from 'styled-components'
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
+import { Bio } from '../../data/constants'
+import FacebookIcon from '@mui/icons-material/Facebook'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import InstagramIcon from '@mui/icons-material/Instagram'
 
 const Nav = styled.div`
   background-color: white;
@@ -160,6 +165,34 @@ const MobileMenuLinks = styled.a`
   }
 `;
 
+const SocialMediaIcons = styled.div`
+  display: flex;
+  margin-top: 10px;
+  padding: 0px 20px;
+  justify-content: end;
+  align-items: center;
+  width: 80%;
+  @media screen and (max-width: 640px) {
+    display: none;
+  }
+`;
+
+const SocialMediaIcon = styled.a`
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: #205295;
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+
+  @media screen and (max-width: 640px) {
+    color: white;
+    margin: 0 20px;
+  }
+`;
+
 const Navbar = () => {
   const [open, setOpen] = React.useState(false)
   const theme = useTheme()
@@ -188,9 +221,12 @@ const Navbar = () => {
             <NavLink href='#projects'>Projects</NavLink>
             <NavLink href='#contact'>Contact</NavLink>
           </NavItems>
-          <ButtonContainer>
-            <GithubButton>Github Profile</GithubButton>
-          </ButtonContainer>
+          <SocialMediaIcons>
+                <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          </SocialMediaIcons>
         </NavContainer>
         {
           open && (
@@ -210,16 +246,11 @@ const Navbar = () => {
               <MobileMenuLinks href='#contact' onClick={() => {
                 setOpen(!open)
               }}>Contact</MobileMenuLinks>
-              <MobileMenuLinks style={{
-                padding: '10px 16px',
-                border: '1px solid black',
-                borderRadius: '20px',
-                background: '#205295',
-                color: 'white',width: 'max-content'}} 
-                href="/"
-                target="_blank"
-                >
-                  Github Profile
+              <MobileMenuLinks>
+                <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
               </MobileMenuLinks>
             </MobileMenu>
           )

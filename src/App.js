@@ -8,7 +8,6 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import styled from "styled-components";
 import { BrowserRouter as Router } from 'react-router-dom';
-import Experience from './components/Experience';
 import Projects from './components/Projects/index.js';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -35,7 +34,6 @@ function App() {
         <Hero />
         <Wrapper>
           <Skills />
-          {/* <Experience /> */}
         </Wrapper>
         <Projects openModal={openModal} setOpenModal={setOpenModal} />
         <Wrapper>
