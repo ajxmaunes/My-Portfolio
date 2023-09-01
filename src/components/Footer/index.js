@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import FacebookIcon from '@mui/icons-material/Facebook'
-import TwitterIcon from '@mui/icons-material/Twitter'
+import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import { Bio } from '../../data/constants'
@@ -94,11 +94,12 @@ const Footer = () => {
                 <NavLink href="#about">About</NavLink>
                 <NavLink href="#skills">Skills</NavLink>
                 <NavLink href="#projects">Portfolio</NavLink>
+                <NavLink href="#contact">Contact</NavLink>
             </Nav>
             <SocialMediaIcons>
-                <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-                <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.twitter} target="display"><GitHubIcon /></SocialMediaIcon>
                 <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
                 <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
             </SocialMediaIcons>
             <Copyright>

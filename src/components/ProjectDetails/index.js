@@ -77,6 +77,7 @@ const Image = styled.img`
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
     @media only screen and (max-width: 600px) {
         margin-top: 20px;
+        height: 180px;
     }
 `;
 

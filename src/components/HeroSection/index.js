@@ -157,6 +157,7 @@ const SubTitle = styled.div`
   @media screen and (max-width: 640px) {
     font-size: 16px;
     line-height: 32px;
+    font-size: 15px;
   } 
 `;
 
@@ -207,8 +208,8 @@ const Img = styled.img`
   }
 
   @media screen and (max-width: 640px) {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 250px;
+    max-height: 260px;
   }
 
   @keyframes img{
