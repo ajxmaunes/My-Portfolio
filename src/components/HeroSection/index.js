@@ -11,7 +11,7 @@ const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
-  height: 100vh;
+  height: 750px;
 
   @media screen and (max-width: 960px) {
     padding: 66px 16px;
@@ -161,7 +161,7 @@ const SubTitle = styled.div`
   } 
 `;
 
-const ResumeButton = styled.button`
+const ResumeButton = styled.a`
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;

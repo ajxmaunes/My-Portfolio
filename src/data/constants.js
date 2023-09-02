@@ -8,8 +8,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ajxmaunes",
-    resume:
-      "",
+    resume: "https://drive.google.com/file/d/1yqSVVPy-hIHmGfHSLDStXK_n1wRQnb5P/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186",
     twitter: "",
     insta: "https://www.instagram.com/_aljunem/",
@@ -58,6 +57,11 @@ export const Bio = {
           image:
             "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
         },
+        {
+          name: "Git",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
+        },
       ],
     },
   ];
@@ -102,7 +106,7 @@ export const Bio = {
       description:
         "I build this during my 2nd year end of semester for a project. This is actually a small E-Commerce website that use an email form to recieve an order from the customers/users. It was also build to be responsive for any kind of devices.",
       image: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/shop.PNG",
-      tags: ["HTML", "CSS", "Javascript"],
+      tags: ["HTML", "CSS", "Javascript", "Fromspree"],
       category: "web app",
       github: "https://github.com/ajxmaunes/IM1PROJECT",
       webapp: "https://ajxmaunes.github.io/IM1PROJECT/",
