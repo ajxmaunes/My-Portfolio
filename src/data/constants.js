@@ -43,6 +43,11 @@ export const Bio = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
         {
+          name: "SCSS",
+          image:
+            "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3257029/file-type-scss-icon-md.png",
+        },
+        {
           name: "Tailwind",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
