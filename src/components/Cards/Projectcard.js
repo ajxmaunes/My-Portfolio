@@ -8,6 +8,7 @@ const Card = styled.div`
     background-color: ${({ theme }) => theme.white};
     cursor: pointer;
     border: 1px solid black;
+    border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     transition: all 0.5s ease-in-out;

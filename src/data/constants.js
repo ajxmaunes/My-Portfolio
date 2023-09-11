@@ -89,7 +89,7 @@ export const Bio = {
       title: "Web for Music App",
       date: "Aug 2023 - Present",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus, est id consequat ultricies, nisl dolor sagittis dui, ac malesuada ipsum velit ac arcu. Nullam bibendum malesuada libero non blandit. Donec at semper nisi, non posuere justo.",
+        "Running a music website offers a great way to build your fan base and followers. It provides a platform to showcase your content as well as to interact with fans and other members of the music community.",
       image: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/web.PNG",
       tags: ["React Js", "Tailwind"],
       category: "web app",

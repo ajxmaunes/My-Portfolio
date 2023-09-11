@@ -62,6 +62,7 @@ const ContactForm = styled.form`
   background-color: ${({ theme }) => theme.white};
   padding: 32px;
   border: 1px solid black;
+  border-radius: 10px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
