@@ -86,6 +86,26 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "AventPH - Travel App",
+      date: "Sep 2023 - Present",
+      description:
+        "A tourism or travel website serves as an information hub for prospective travelers planning a getaway. Today, people travel for a range of experiences—babymoons, staycations, voluntourism or bleisure—you name it. So, provide as much relevant information as possible to help users plan their trips.",
+      image: "https://raw.githubusercontent.com/ajxmaunes/AdventPH/main/src/Components/Assets/front.PNG",
+      tags: ["React Js", "SASS"],
+      category: "web app",
+      github: "https://github.com/ajxmaunes/AdventPH",
+      webapp: "https://ajxmaunes.github.io/AdventPH/",
+      member: [
+        {
+          name: "Aljune Maunes",
+          img: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/1.jpg",
+          linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186/",
+          github: "https://github.com/ajxmaunes",
+        },
+      ],
+    },
+    {
+      id: 1,
       title: "Web for Music App",
       date: "Aug 2023 - Present",
       description:
@@ -105,7 +125,7 @@ export const Bio = {
       ],
     },
     {
-      id: 0,
+      id: 2,
       title: "Small E-Commerce Web",
       date: "July 2021",
       description:
