@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react'
 import { Link as linkR } from 'react-router-dom'
-import styled, { useTheme } from 'styled-components'
-import { DiCssdeck } from 'react-icons/di';
+import styled from 'styled-components'
+import { GiCancer } from 'react-icons/gi';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants'
 import FacebookIcon from '@mui/icons-material/Facebook'
@@ -56,6 +57,7 @@ const NavContainer = styled.div`
 const NavLogo = styled(linkR)`
   width: 80%;
   padding: 0 6px;
+  margin-left: 1rem;
   display: flex;
   justify-self: flex-start;
   cursor: pointer;
@@ -63,6 +65,7 @@ const NavLogo = styled(linkR)`
   align-items: center;
   @media screen and (max-width: 640px) {
     padding: 0 0px;
+    margin-left: 0rem;
   }
 `;
 
@@ -87,41 +90,6 @@ const NavLink = styled.a`
   transition: all 0.2s ease-in-out;
   &:hover {
     color: #205295;
-  }
-`;
-
-const ButtonContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  width: 80%;
-  height: 100%;
-  padding: 0 6px;
-  @media screen and (max-width: 640px) {
-    display: none;
-  }
-`;
-
-const GithubButton = styled.button`
-  background-color: transparent;
-  color: ${({ theme }) => theme.primary};
-  border: 1.8px solid ${({ theme }) => theme.primary};
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 20px;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  height: 70%;
-  &:hover {
-    background: #205295;
-    color: ${({ theme }) => theme.white};     
-  }
-
-  @media screen and (max-width: 640px) {
-    font-size: 0.8rem;
   }
 `;
 
@@ -168,7 +136,6 @@ const MobileMenuLinks = styled.a`
 const SocialMediaIcons = styled.div`
   display: flex;
   margin-top: 10px;
-  padding: 0px 20px;
   justify-content: end;
   align-items: center;
   width: 80%;
@@ -179,7 +146,8 @@ const SocialMediaIcons = styled.div`
 
 const SocialMediaIcon = styled.a`
   display: inline-block;
-  margin: 0 1rem;
+  margin-left: .5rem;
+  margin-right: 1.5rem;
   font-size: 1.5rem;
   color: #205295;
   transition: color 0.2s ease-in-out;
@@ -195,7 +163,6 @@ const SocialMediaIcon = styled.a`
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false)
-  const theme = useTheme()
   return (
     <Nav className='nav'>
         <NavContainer>
@@ -206,7 +173,7 @@ const Navbar = () => {
               color: "black", 
               marginBottom: '20;', 
               cursor: 'pointer' }}>
-              <DiCssdeck size="3rem" /> <Span>AJDev</Span>
+              <GiCancer size="1.5rem" /> <Span style={{fontSize: '25px'}}>AJDev</Span>
             </a>
           </NavLogo>
           <MobileIcon>
@@ -237,9 +204,6 @@ const Navbar = () => {
               <MobileMenuLinks href='#skills' onClick={() => {
                 setOpen(!open)
               }}>Skills</MobileMenuLinks>
-              {/* <MobileMenuLinks href='#experience' onClick={() => {
-                setOpen(!open)
-              }}>Experience</MobileMenuLinks> */}
               <MobileMenuLinks href='#projects' onClick={() => {
                 setOpen(!open)
               }}>Projects</MobileMenuLinks>

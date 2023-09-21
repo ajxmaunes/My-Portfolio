@@ -1,9 +1,8 @@
-import { Snackbar } from '@mui/material'
-import React, { useState, useRef } from 'react'
+import React from 'react'
 import styled from 'styled-components'
-import emailjs from '@emailjs/browser';
 
 const Container = styled.div`
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,14 +96,18 @@ const ContactInput = styled.input`
 `;
 
 const ContactInputMessage = styled.textarea`
-  flex: 1;
   background-color: transparent;
   border: 1px solid ${({ theme }) => theme.text_secondary};
-  outline: none;
   font-size: 18px;
   color: ${({ theme }) => theme.text_primary};
   border-radius: 12px;
   padding: 12px 16px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: vertical;
+  min-height: 120px;
+  line-height: 20px;
   &:focus {
     border: 2px solid #205295;
   }
@@ -131,21 +134,6 @@ const ContactButton = styled.input`
 `;
 
 const Contact = () => {
-
-    // const [open, setOpen] = useState(false)
-    // const form = useRef()
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault()
-    //     emailjs.sendForm('service_nfczxzy', 'template_0goeiu4', form.current, 'AmlcfshX4staRyteo')
-    //         .then((result) => {
-    //             setOpen(true);
-    //             form.current.reset()
-    //         }, (error) => {
-    //             console.log(error.text)
-    //         })
-    // }
-
   return (
     <Container>
         <Wrapper>
@@ -159,13 +147,6 @@ const Contact = () => {
                 <ContactInputMessage placeholder="Message" row="4" name="message" required/>
                 <ContactButton type="submit" value="Send" />
             </ContactForm>
-            {/* <Snackbar
-                open={open}
-                autoHideDuration={6000}
-                onClose={() => setOpen(false)}
-                message="Email sent successfully!"
-                severity="success"
-            /> */}
         </Wrapper>
     </Container>
   )

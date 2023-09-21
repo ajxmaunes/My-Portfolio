@@ -52,19 +52,6 @@ const Desc = styled.div`
   }
 `;
 
-const ToggleButtonGroup = styled.div`
-    display: flex;
-    border: 1.5px solid ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.primary};
-    font-size: 16px;
-    border-radius: 12px;
-    font-weight: 500;
-    margin: 22px 0px;
-    @media (max-width: 768px) {
-        font-size: 12px;
-    }
-`;
-
 export const Divider = styled.div`
     width: 1px;
     background: ${({ theme }) => theme.primary};
@@ -107,33 +94,6 @@ const Projects = ({openModal,setOpenModal}) => {
             <Desc>
               Here are some of my projects which I have been working on.
             </Desc>
-
-            {/* <ToggleButtonGroup>
-                {toggle === "all" ? (
-                <ToggleButton active value="all" onClick={() => setToggle("all")}>ALL</ToggleButton>
-                ) : (
-                <ToggleButton value="all" onClick={() => setToggle("all")}>ALL</ToggleButton>
-                )}
-                <Divider />
-                {toggle === "web app" ? (
-                <ToggleButton active onClick={() => setToggle("web app")}>WEB APP'S</ToggleButton>
-                ) : (
-                <ToggleButton onClick={() => setToggle("web app")}>WEB APP'S</ToggleButton>
-                )}
-                <Divider />
-                {toggle === "android app" ? (
-                <ToggleButton active onClick={() => setToggle("android app")}>ANDROID APP</ToggleButton>
-                ) : (
-                <ToggleButton onClick={() => setToggle("android app")}>ANDROID APP</ToggleButton>
-                )}
-                <Divider />
-                {toggle === "machine learning" ? (
-                <ToggleButton active onClick={() => setToggle("machine learning")}>MACHINE LEARNING</ToggleButton>
-                ) : (
-                <ToggleButton onClick={() => setToggle("machine learning")}>MACHINE LEARNING</ToggleButton>
-                )}
-            </ToggleButtonGroup> */}
-
             <CardContainer>
               {toggle === "all" &&
                 projects.map((project) => 

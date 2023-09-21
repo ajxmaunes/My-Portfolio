@@ -14,10 +14,6 @@ export const Bio = {
     insta: "https://www.instagram.com/_aljunem/",
     facebook: "https://www.facebook.com/ajxmaunes/",
   };
-
-  export const TechStack = [
-    
-  ]
   
   export const skills = [
     {
