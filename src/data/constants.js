@@ -82,12 +82,32 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "FASH-ON - Ecommerce",
+      date: "Sep 2023 - Present",
+      description:
+        "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Ecommerce-I/main/src/img/front.PNG",
+      tags: ["React JS", "Tailwind CSS"],
+      category: "web app",
+      github: "https://github.com/ajxmaunes/Ecommerce-I",
+      webapp: "https://ajxmaunes.github.io/Ecommerce-I/",
+      member: [
+        {
+          name: "Aljune Maunes",
+          img: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/1.jpg",
+          linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186/",
+          github: "https://github.com/ajxmaunes",
+        },
+      ],
+    },
+    {
+      id: 1,
       title: "AventPH - Travel App",
       date: "Sep 2023 - Present",
       description:
         "A tourism or travel website serves as an information hub for prospective travelers planning a getaway. Today, people travel for a range of experiences—babymoons, staycations, voluntourism or bleisure—you name it. So, provide as much relevant information as possible to help users plan their trips.",
       image: "https://raw.githubusercontent.com/ajxmaunes/AdventPH/main/src/Components/Assets/front.PNG",
-      tags: ["React Js", "SASS"],
+      tags: ["React JS", "SASS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/AdventPH",
       webapp: "https://ajxmaunes.github.io/AdventPH/",
@@ -101,13 +121,13 @@ export const Bio = {
       ],
     },
     {
-      id: 1,
+      id: 2,
       title: "Web for Music App",
       date: "Aug 2023 - Present",
       description:
         "Running a music website offers a great way to build your fan base and followers. It provides a platform to showcase your content as well as to interact with fans and other members of the music community.",
       image: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/web.PNG",
-      tags: ["React Js", "Tailwind"],
+      tags: ["React JS", "Tailwind CSS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/Music-App",
       webapp: "https://ajxmaunes.github.io/Music-App/",
@@ -121,7 +141,7 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Small E-Commerce Web",
       date: "July 2021",
       description:
