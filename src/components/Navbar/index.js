@@ -55,7 +55,7 @@ const NavContainer = styled.div`
 `;
 
 const NavLogo = styled(linkR)`
-  width: 80%;
+  width: 75%;
   padding: 0 6px;
   margin-left: 1rem;
   display: flex;
@@ -63,6 +63,11 @@ const NavLogo = styled(linkR)`
   cursor: pointer;
   text-decoration: none;
   align-items: center;
+
+  @media screen and (max-width: 840px) {
+    width: 70%;
+  }
+
   @media screen and (max-width: 640px) {
     padding: 0 0px;
     margin-left: 0rem;
@@ -76,6 +81,10 @@ const NavItems = styled.ul`
   align-items: center;
   gap: 32px;
   list-style: none;
+
+  @media screen and (max-width: 840px) {
+    gap: 22px;
+  }
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -100,30 +109,27 @@ const Span = styled.div`
 `;
 
 const MobileMenu = styled.div`
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
   position: absolute;
-  top: 60px;
+  top: 59px;
   right: 0;
   width: 100%;
-  padding: 12px 40px 24px 40px;
-  background: ${({ theme }) => theme.card_light + 99};
+  padding: 40px 40px 24px 40px;
+  background: ${({ theme }) => theme.white};
   transition: all 0.3s ease-in-out;
-  transform: ${({ open }) => (open ? " translateX(0)" : "translateX(100%)")};
-  border-radius: 0 0 20px 20px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
   opacity: ${({ open }) => (open ? "1" : "0")};
   z-index: ${({ open }) => (open ? "1" : "-1")};
 `;
 
 const MobileMenuLinks = styled.a`
-  color: ${({ theme }) => theme.white};
+  color: black;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 20px;
   cursor: pointer;
   text-decoration: none;
@@ -139,6 +145,7 @@ const SocialMediaIcons = styled.div`
   justify-content: end;
   align-items: center;
   width: 80%;
+
   @media screen and (max-width: 640px) {
     display: none;
   }
@@ -155,8 +162,13 @@ const SocialMediaIcon = styled.a`
     color: ${({ theme }) => theme.primary};
   }
 
+  @media screen and (max-width: 840px) {
+    margin-left: 0rem;
+    margin-right: 1rem;
+  }
+
   @media screen and (max-width: 640px) {
-    color: white;
+    color: black;
     margin: 0 20px;
   }
 `;
