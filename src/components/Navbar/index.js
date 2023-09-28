@@ -2,7 +2,6 @@
 import React from 'react'
 import { Link as linkR } from 'react-router-dom'
 import styled from 'styled-components'
-import { GiCancer } from 'react-icons/gi';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants'
 import FacebookIcon from '@mui/icons-material/Facebook'
@@ -185,7 +184,7 @@ const Navbar = () => {
               color: "black", 
               marginBottom: '20;', 
               cursor: 'pointer' }}>
-              <GiCancer size="1.5rem" /> <Span style={{fontSize: '25px'}}>AJDev</Span>
+              <Span style={{fontSize: '25px'}}>AJDev</Span>
             </a>
           </NavLogo>
           <MobileIcon>
