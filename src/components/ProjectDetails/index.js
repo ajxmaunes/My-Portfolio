@@ -185,7 +185,7 @@ const Button = styled.a`
     text-decoration: none;
     transition: all 0.5s ease;
     &:hover {
-        background-color: #205295;
+        background-color: ;
     }
     @media only screen and (max-width: 600px) {
         font-size: 12px;
