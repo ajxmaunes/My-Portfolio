@@ -34,7 +34,8 @@ const Image = styled.img`
     height: 250px;
     background-color: ${({ theme }) => theme.white};
     border-radius: 1px;
-    box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
+    border: 1px solid black;
+    box-shadow: 0 0 16px 2px rgba(0,0,0,0.4);
 
     @media only screen and (max-width: 768px){
         height: 180px;
@@ -116,7 +117,7 @@ const Avatar = styled.img`
     margin-left: -10px;
     background-color: ${({ theme }) => theme.white};
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    border: 3px solid ${({ theme }) => theme.card};
+    border: 1.5px solid ${({ theme }) => theme.card};
 `;
 
 const Projectcards = ({ project, setOpenModal }) => {

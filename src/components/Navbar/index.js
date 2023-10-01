@@ -167,7 +167,7 @@ const SocialMediaIcon = styled.a`
   }
 
   @media screen and (max-width: 640px) {
-    color: black;
+    color: #205295;
     margin: 0 20px;
   }
 `;

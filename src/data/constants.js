@@ -13,6 +13,7 @@ export const Bio = {
     twitter: "",
     insta: "https://www.instagram.com/_aljunem/",
     facebook: "https://www.facebook.com/ajxmaunes/",
+    meImage: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Me.jpg?token=GHSAT0AAAAAACFUJD2TZ2FQLCX3OOXC7MGMZIZKABQ",
   };
   
   export const skills = [
@@ -39,7 +40,7 @@ export const Bio = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
         {
-          name: "SCSS",
+          name: "SASS",
           image:
             "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3257029/file-type-scss-icon-md.png",
         },
@@ -86,7 +87,7 @@ export const Bio = {
       date: "Sep 2023 - Present",
       description:
         "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/Ecommerce-I/main/src/img/front.PNG",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Fash-ON.PNG?token=GHSAT0AAAAAACFUJD2SAZFIMV5GLH4T6FE4ZIZKFWQ",
       tags: ["React JS", "Tailwind CSS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/Ecommerce-I",
@@ -94,7 +95,7 @@ export const Bio = {
       member: [
         {
           name: "Aljune Maunes",
-          img: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/1.jpg",
+          img: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Me.jpg?token=GHSAT0AAAAAACFUJD2T7NWQO2NVRXENJTEMZIZKEJA",
           linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186/",
           github: "https://github.com/ajxmaunes",
         },
@@ -106,7 +107,7 @@ export const Bio = {
       date: "Sep 2023 - Present",
       description:
         "A tourism or travel website serves as an information hub for prospective travelers planning a getaway. Today, people travel for a range of experiences—babymoons, staycations, voluntourism or bleisure—you name it. So, provide as much relevant information as possible to help users plan their trips.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/AdventPH/main/src/Components/Assets/front.PNG",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/AdventPH.PNG?token=GHSAT0AAAAAACFUJD2T6K6OGQIGOWR755VAZIZKCWQ",
       tags: ["React JS", "SASS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/AdventPH",
@@ -114,7 +115,7 @@ export const Bio = {
       member: [
         {
           name: "Aljune Maunes",
-          img: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/1.jpg",
+          img: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Me.jpg?token=GHSAT0AAAAAACFUJD2T7NWQO2NVRXENJTEMZIZKEJA",
           linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186/",
           github: "https://github.com/ajxmaunes",
         },
@@ -126,7 +127,7 @@ export const Bio = {
       date: "Aug 2023 - Present",
       description:
         "Running a music website offers a great way to build your fan base and followers. It provides a platform to showcase your content as well as to interact with fans and other members of the music community.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/web.PNG",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/MusicApp.PNG?token=GHSAT0AAAAAACFUJD2S2VSJVXZSKCCMFRC6ZIZKDRA",
       tags: ["React JS", "Tailwind CSS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/Music-App",
@@ -134,7 +135,7 @@ export const Bio = {
       member: [
         {
           name: "Aljune Maunes",
-          img: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/1.jpg",
+          img: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Me.jpg?token=GHSAT0AAAAAACFUJD2T7NWQO2NVRXENJTEMZIZKEJA",
           linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186/",
           github: "https://github.com/ajxmaunes",
         },
@@ -146,7 +147,7 @@ export const Bio = {
       date: "July 2021",
       description:
         "I build this during my 2nd year end of semester for a project. This is actually a small E-Commerce website that use an email form to recieve an order from the customers/users. It was also build to be responsive for any kind of devices.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/shop.PNG",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Ecommerce1.PNG?token=GHSAT0AAAAAACFUJD2TSEW5UOXWMS4LDVBGZIZKD4A",
       tags: ["HTML", "CSS", "Javascript", "Fromspree"],
       category: "web app",
       github: "https://github.com/ajxmaunes/IM1PROJECT",
@@ -154,7 +155,7 @@ export const Bio = {
       member: [
         {
           name: "Aljune Maunes",
-          img: "https://raw.githubusercontent.com/ajxmaunes/My-Portfolio/main/src/images/1.jpg",
+          img: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Me.jpg?token=GHSAT0AAAAAACFUJD2T7NWQO2NVRXENJTEMZIZKEJA",
           linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186/",
           github: "https://github.com/ajxmaunes",
         },
