@@ -87,7 +87,7 @@ export const Bio = {
       date: "Sep 2023 - Present",
       description:
         "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Fash-ON.PNG?token=GHSAT0AAAAAACFUJD2SAZFIMV5GLH4T6FE4ZIZKFWQ",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Fash-ON-min.PNG",
       tags: ["React JS", "Tailwind CSS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/Ecommerce-I",
@@ -107,7 +107,7 @@ export const Bio = {
       date: "Sep 2023 - Present",
       description:
         "A tourism or travel website serves as an information hub for prospective travelers planning a getaway. Today, people travel for a range of experiences—babymoons, staycations, voluntourism or bleisure—you name it. So, provide as much relevant information as possible to help users plan their trips.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/AdventPH.PNG?token=GHSAT0AAAAAACFUJD2T6K6OGQIGOWR755VAZIZKCWQ",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/AdventPH-min.PNG",
       tags: ["React JS", "SASS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/AdventPH",
@@ -127,7 +127,7 @@ export const Bio = {
       date: "Aug 2023 - Present",
       description:
         "Running a music website offers a great way to build your fan base and followers. It provides a platform to showcase your content as well as to interact with fans and other members of the music community.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/MusicApp.PNG?token=GHSAT0AAAAAACFUJD2S2VSJVXZSKCCMFRC6ZIZKDRA",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/MusicApp-min.PNG",
       tags: ["React JS", "Tailwind CSS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/Music-App",
@@ -147,7 +147,7 @@ export const Bio = {
       date: "July 2021",
       description:
         "I build this during my 2nd year end of semester for a project. This is actually a small E-Commerce website that use an email form to recieve an order from the customers/users. It was also build to be responsive for any kind of devices.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Ecommerce1.PNG?token=GHSAT0AAAAAACFUJD2TSEW5UOXWMS4LDVBGZIZKD4A",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Ecommerce1-min.PNG",
       tags: ["HTML", "CSS", "Javascript", "Fromspree"],
       category: "web app",
       github: "https://github.com/ajxmaunes/IM1PROJECT",
