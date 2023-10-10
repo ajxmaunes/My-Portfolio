@@ -82,26 +82,6 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 0,
-      title: "FASH-ON - Ecommerce",
-      date: "Sep 2023 - Present",
-      description:
-        "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Fash-ON-min.PNG",
-      tags: ["React JS", "Tailwind CSS"],
-      category: "web app",
-      github: "https://github.com/ajxmaunes/Ecommerce-I",
-      webapp: "https://ajxmaunes.github.io/Ecommerce-I/",
-      member: [
-        {
-          name: "Aljune Maunes",
-          img: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Me.jpg?token=GHSAT0AAAAAACFUJD2T7NWQO2NVRXENJTEMZIZKEJA",
-          linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186/",
-          github: "https://github.com/ajxmaunes",
-        },
-      ],
-    },
-    {
       id: 1,
       title: "AventPH - Travel App",
       date: "Sep 2023 - Present",
@@ -112,6 +92,26 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/ajxmaunes/AdventPH",
       webapp: "https://ajxmaunes.github.io/AdventPH/",
+      member: [
+        {
+          name: "Aljune Maunes",
+          img: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Me.jpg?token=GHSAT0AAAAAACFUJD2T7NWQO2NVRXENJTEMZIZKEJA",
+          linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186/",
+          github: "https://github.com/ajxmaunes",
+        },
+      ],
+    },
+    {
+      id: 0,
+      title: "FASH-ON - Ecommerce",
+      date: "Sep 2023 - Present",
+      description:
+        "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Fash-ON-min.PNG",
+      tags: ["React JS", "Tailwind CSS"],
+      category: "web app",
+      github: "https://github.com/ajxmaunes/Ecommerce-I",
+      webapp: "https://ajxmaunes.github.io/Ecommerce-I/",
       member: [
         {
           name: "Aljune Maunes",

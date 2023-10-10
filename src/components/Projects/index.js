@@ -77,7 +77,7 @@ export const ToggleButton = styled.div`
 `
 
 const CardContainer = styled.div`
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;

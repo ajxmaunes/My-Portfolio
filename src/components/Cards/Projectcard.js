@@ -24,8 +24,10 @@ const Card = styled.div`
     }
 
     @media only screen and (max-width: 768px){
-        width: 360px;
-        height: 530px;
+        border-radius: 5px;
+        width: 340px;
+        height: 450px;
+        box-shadow: none;
     }
 `;
 
