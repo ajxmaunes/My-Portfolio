@@ -37,7 +37,7 @@ const MobileIcon = styled.div`
     top: 0;
     right: 0;
     transform: translate(-100%, 50%);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
   }
@@ -117,7 +117,8 @@ const MobileMenu = styled.div`
   top: 59px;
   right: 0;
   width: 100%;
-  padding: 40px 40px 24px 40px;
+  padding: 30px 40px 20px 40px;
+  border-radius: 0 0 10px 10px;
   background: ${({ theme }) => theme.white};
   transition: all 0.3s ease-in-out;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
@@ -128,8 +129,8 @@ const MobileMenu = styled.div`
 const MobileMenuLinks = styled.a`
   color: black;
   font-weight: 500;
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 15px;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.2s ease-in-out;

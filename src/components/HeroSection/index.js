@@ -19,7 +19,7 @@ const HeroContainer = styled.div`
   }
 
   @media screen and (max-width: 640px) {
-    padding: 32px 16px;
+    padding: 25px 16px;
     top: 0px;
     clip-path: none;
   }
@@ -113,7 +113,7 @@ const Title = styled.div`
   }
 
   @media screen and (max-width: 640px) {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 48px;
     margin-bottom: 8px;
   }
@@ -131,9 +131,9 @@ const TextLoop = styled.div`
     text-align: center;
   }
   @media screen and (max-width: 640px) {
-    font-size: 22px;
+    font-size: 21px;
     line-height: 48px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
 `;
 
@@ -154,9 +154,8 @@ const SubTitle = styled.div`
 
     
   @media screen and (max-width: 640px) {
-    font-size: 16px;
-    line-height: 32px;
     font-size: 15px;
+    line-height: 32px;
   } 
 `;
 
@@ -187,8 +186,9 @@ const ResumeButton = styled.a`
   }
     
   @media (max-width: 640px) {
-    padding: 10px 0;
-    font-size: 18px;
+    padding: 8px 0;
+    font-size: 16px;
+    width: 55%;
   } 
 `;
 

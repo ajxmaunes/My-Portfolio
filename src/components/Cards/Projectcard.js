@@ -12,7 +12,7 @@ const Card = styled.div`
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     transition: all 0.5s ease-in-out;
-    padding: 26px 20px;
+    padding: 26px 16px;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -81,6 +81,10 @@ const Title = styled.div`
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+
+    @media (max-width: 768px) {
+        font-size: 16px
+    }
 `;
 
 const Date = styled.div`
@@ -94,7 +98,7 @@ const Date = styled.div`
 `;
 
 const Description = styled.div`
-font-size: 14px;
+    font-size: 14px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary};
     overflow: hidden;
@@ -104,6 +108,10 @@ font-size: 14px;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+
+    @media (max-width: 768px) {
+        font-size: 12px
+    }
 `;
 
 const Members = styled.div`

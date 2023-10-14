@@ -37,7 +37,7 @@ const Title = styled.div`
     color: ${({ theme }) => theme.text_primary};
     @media (max-width: 768px) {
         margin-top: 12px;
-        font-size: 32px;
+        font-size: 28px;
     }
 `;
 
@@ -48,7 +48,7 @@ const Desc = styled.div`
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         margin-top: 12px;
-        font-size: 16px;
+        font-size: 14px;
     }
 `;
 
@@ -79,6 +79,7 @@ const ContactTitle = styled.div`
 
   @media only screen and (max-width: 768px){
     text-align: center;
+    font-size: 22px;
   }
 `;
 

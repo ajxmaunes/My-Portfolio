@@ -58,7 +58,7 @@ color: ${({ theme }) => theme.text_primary};
     color: #205295;
   }
   @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 15px;
   }
 `;
 
@@ -80,7 +80,7 @@ const SocialMediaIcon = styled.a`
 
 const Copyright = styled.p`
   margin-top: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: ${({ theme }) => theme.soft2};
   text-align: center;
 `;

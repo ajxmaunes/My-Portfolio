@@ -35,7 +35,7 @@ const Title = styled.h1`
 
   @media (max-width: 768px) {
     margin-top: 12px;
-    font-size: 32px
+    font-size: 28px
   }
 `;
 
@@ -45,7 +45,7 @@ const Desc = styled.div`
   color: ${({ theme }) => theme.text_primary + 95};
   
   @media (max-width: 768px) {
-    font-size: 16px
+    font-size: 14px
   }
 `;
 
