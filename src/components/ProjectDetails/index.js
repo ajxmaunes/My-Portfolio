@@ -32,7 +32,7 @@ display: flex;
 flex-direction: column;
 position: relative;
 @media only screen and (max-width: 600px) {
-    padding: 15px;
+    padding: 14px;
 }
 `;
 
@@ -42,7 +42,7 @@ const Title = styled.div`
   color: ${({ theme }) => theme.text_primary};
   margin: 8px 6px 0px 6px;
   @media only screen and (max-width: 600px) {
-      font-size: 24px;
+      font-size: 20px;
       margin: 6px 6px 0px 6px;
   }
 `;
@@ -57,15 +57,13 @@ const Date = styled.div`
     }
 `
 
-
-
 const Desc = styled.div`
     font-size: 16px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px;
     @media only screen and (max-width: 600px) {
-        font-size: 14px;
+        font-size: 13px;
         margin: 6px 6px;
     }
 `;
@@ -75,8 +73,9 @@ const Image = styled.img`
     object-fit: cover;
     margin-top: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    border: 1px solid black;
     @media only screen and (max-width: 600px) {
-        margin-top: 20px;
+        margin-top: 25px;
         height: 180px;
     }
 `;
@@ -87,7 +86,7 @@ const Label = styled.div`
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px;
     @media only screen and (max-width: 600px) {
-        font-size: 16px;
+        font-size: 14px;
         margin: 8px 6px;
     }
 `;
@@ -150,7 +149,7 @@ const MemberName = styled.div`
     width: 200px;
     color: ${({ theme }) => theme.text_primary};
     @media only screen and (max-width: 600px) {
-        font-size: 14px;
+        font-size: 13px;
         width: 100%;
         justify-content: space-between;
     }
@@ -189,6 +188,7 @@ const Button = styled.a`
     }
     @media only screen and (max-width: 600px) {
         font-size: 12px;
+        padding: 10px 14px;
     }
 `;
 

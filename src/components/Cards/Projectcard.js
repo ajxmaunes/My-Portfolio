@@ -12,7 +12,7 @@ const Card = styled.div`
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     transition: all 0.5s ease-in-out;
-    padding: 26px 16px;
+    padding: 26px 18px;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -26,8 +26,9 @@ const Card = styled.div`
     @media only screen and (max-width: 768px){
         border-radius: 5px;
         width: 340px;
-        height: 450px;
+        height: 430px;
         box-shadow: none;
+        padding: 24px 14px;
     }
 `;
 
