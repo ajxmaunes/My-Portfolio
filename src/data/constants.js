@@ -87,7 +87,7 @@ export const Bio = {
       date: "Sep 2023 - Present",
       description:
         "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Fash-ON-min.PNG",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/sdgdfhsd.PNG",
       tags: ["React JS", "Tailwind CSS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/Ecommerce-I",
@@ -107,7 +107,7 @@ export const Bio = {
       date: "Sep 2023 - Present",
       description:
         "A tourism or travel website serves as an information hub for prospective travelers planning a getaway. Today, people travel for a range of experiences—babymoons, staycations, voluntourism or bleisure—you name it. So, provide as much relevant information as possible to help users plan their trips.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/sdgdfhsd.PNG",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/AdventPH-min.PNG",
       tags: ["React JS", "SASS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/AdventPH",
