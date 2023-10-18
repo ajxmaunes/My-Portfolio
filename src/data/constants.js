@@ -8,7 +8,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ajxmaunes",
-    resume: "https://drive.google.com/file/d/1jirSTr_ejk8yg-8dZnD-Y8Jd34AQ7I3H/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1DdJCj6-1_MxSiFcSlsjA8jKaB2LcCTFu/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186",
     twitter: "",
     insta: "https://www.instagram.com/_aljunem/",
@@ -83,11 +83,11 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
-      title: "FASH-ON - Ecommerce",
+      title: "FASH-OFF - Ecommerce",
       date: "Sep 2023 - Present",
       description:
         "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/sdgdfhsd.PNG",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/FASHOFF.PNG",
       tags: ["React JS", "Tailwind CSS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/Ecommerce-I",
