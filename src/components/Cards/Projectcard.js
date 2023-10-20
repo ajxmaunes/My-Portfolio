@@ -12,7 +12,7 @@ const Card = styled.div`
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     transition: all 0.5s ease-in-out;
-    padding: 26px 18px;
+    padding: 26px 22px;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -20,7 +20,6 @@ const Card = styled.div`
     &:hover {
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
-        filter: brightness(1.1);
     }
 
     @media only screen and (max-width: 768px){

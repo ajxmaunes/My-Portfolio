@@ -8,7 +8,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ajxmaunes",
-    resume: "https://drive.google.com/file/d/1DdJCj6-1_MxSiFcSlsjA8jKaB2LcCTFu/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1dnys-dbKwTddZnYucGxCPU2xGqIuOBmE/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186",
     twitter: "",
     insta: "https://www.instagram.com/_aljunem/",
@@ -146,7 +146,7 @@ export const Bio = {
       title: "Small E-Commerce Web",
       date: "July 2021",
       description:
-        "I build this during my 2nd year end of semester for a project. This is actually a small E-Commerce website that use an email form to recieve an order from the customers/users. It was also build to be responsive for any kind of devices.",
+        "I build this during my 2nd year college way back 2021 for a individual project. This is actually a functional small E-Commerce website that use an email form to recieve orders from the customers. It was also build to be responsive for any kind of devices.",
       image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Ecommerce1-min.PNG",
       tags: ["HTML", "CSS", "Javascript", "Fromspree"],
       category: "web app",
