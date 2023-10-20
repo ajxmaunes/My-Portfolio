@@ -91,7 +91,7 @@ const Footer = () => {
         <FooterWrapper>
             <Logo>Aljune Maunes</Logo>
             <Nav>
-                <NavLink href="#about">About</NavLink>
+                <NavLink onClick={() => window.scrollTo(0, 0)} href="#">About</NavLink>
                 <NavLink href="#skills">Skills</NavLink>
                 <NavLink href="#projects">Portfolio</NavLink>
                 <NavLink href="#contact">Contact</NavLink>
