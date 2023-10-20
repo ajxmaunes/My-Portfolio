@@ -98,6 +98,8 @@ const NavLink = styled.a`
   transition: all 0.2s ease-in-out;
   &:hover {
     color: #205295;
+    transform: scale(1.15);
+    transition: all 0.4s ease-in-out;
   }
 `;
 
@@ -160,6 +162,8 @@ const SocialMediaIcon = styled.a`
   transition: color 0.2s ease-in-out;
   &:hover {
     color: ${({ theme }) => theme.primary};
+    transform: scale(1.15);
+    transition: all 0.4s ease-in-out;
   }
 
   @media screen and (max-width: 840px) {
@@ -185,7 +189,7 @@ const Navbar = () => {
               color: "black", 
               marginBottom: '20;', 
               cursor: 'pointer' }}>
-              <Span style={{fontSize: '25px'}}>AJDev</Span>
+              <Span style={{fontSize: '25px'}}>🔎AJDev</Span>
             </a>
           </NavLogo>
           <MobileIcon>

@@ -47,8 +47,20 @@ const Desc = styled.div`
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
-        margin-top: 12px;
+        margin-top: 10px;
         font-size: 14px;
+    }
+`;
+
+const Num = styled.div`
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: ${({ theme }) => theme.text_primary};
+
+    @media only screen and (max-width: 768px){
+      text-align: center;
+      font-size: 16px;
     }
 `;
 
@@ -63,7 +75,7 @@ const ContactForm = styled.form`
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  margin-top: 28px;
+  margin-top: ;
   gap: 12px;
 
   @media only screen and (max-width: 768px){
@@ -138,10 +150,11 @@ const Contact = () => {
   return (
     <Container>
         <Wrapper>
-            <Title id='contact'>Contact</Title>
+            <Title id='contact'>Contact ✉️</Title>
             <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+            <Num>Phone 📞 +639311115722</Num>
             <ContactForm action="https://formspree.io/f/mqkwbazv" method="POST" autocomplete="off">
-                <ContactTitle>Email Me 🚀 <a href = "mailto: aljunemaunes0@gmail.com" style={{ fontSize:"15px", fontWeight: "450", textAlign: "right", textDecoration: "none"}}> aljunemaunes0@gmail.com</a></ContactTitle>
+                <ContactTitle>Email Me 🚀<a href = "mailto: aljunemaunes0@gmail.com" style={{ fontSize:"15px", fontWeight: "450", textAlign: "right", textDecoration: "none"}}> aljunemaunes0@gmail.com</a></ContactTitle>
                 <ContactInput placeholder="Your Email" name="from_email" required/>
                 <ContactInput placeholder="Your Name" name="from_name" required/>
                 <ContactInput placeholder="Subject" name="subject" required/>

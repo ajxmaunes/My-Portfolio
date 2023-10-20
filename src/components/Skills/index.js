@@ -53,7 +53,7 @@ const SkillsContainer = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 20px;
 
   justify-content: center;
 `;
@@ -85,7 +85,7 @@ const SkillList = styled.div`
   margin: 20px;
 `;
 
-const SkillItem = styled.div`
+const SkillItem = styled.a`
   display: flex;
   align-items: center;
   gap: 8px;
@@ -96,6 +96,8 @@ const SkillItem = styled.div`
   border: 1px solid ${({ theme }) => theme.text_primary + 80};
   padding: 12px 16px;
   font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
 
   @media (max-width: 768px) {
     font-size: 14px;
@@ -117,7 +119,7 @@ const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
-        <Title>Tech Stack</Title>
+        <Title>Tech Stack 💻</Title>
         <Desc>
           Here are some of my skills on which I have been working on.
         </Desc>
@@ -126,7 +128,7 @@ const Skills = () => {
             <Skill>
               <SkillList>
                 {item.skills.map((skill) => (
-                  <SkillItem>
+                  <SkillItem href={skill.link} target='display'>
                     <SkillImage src={skill.image} />
                     {skill.name}
                   </SkillItem>

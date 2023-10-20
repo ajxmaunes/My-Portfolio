@@ -77,7 +77,7 @@ export const ToggleButton = styled.div`
 `
 
 const CardContainer = styled.div`
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@ const Projects = ({openModal,setOpenModal}) => {
   return (
     <Container id="projects">
         <Wrapper>
-            <Title>Portfolio</Title>
+            <Title>Portfolio ⚙️</Title>
             <Desc>
               Here are some of my projects which I have been working on.
             </Desc>

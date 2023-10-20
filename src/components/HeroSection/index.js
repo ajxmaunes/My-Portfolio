@@ -142,6 +142,23 @@ const Span = styled.span`
   cursor: pointer;
 `;
 
+const Location = styled.div`
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  color: ${({ theme }) => theme.text_primary};
+    
+  @media screen and (max-width: 960px) {
+    text-align: center;
+  }
+
+    
+  @media screen and (max-width: 640px) {
+    font-size: 15px;
+    line-height: 32px;
+  } 
+`;
+
 const SubTitle = styled.div`
   font-size: 18px;
   line-height: 32px;
@@ -183,6 +200,7 @@ const ResumeButton = styled.a`
     box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
     color: #205295;
+    border: 1px solid #205295;
   }
     
   @media (max-width: 640px) {
@@ -193,6 +211,7 @@ const ResumeButton = styled.a`
 `;
 
 const Img = styled.img`
+  top: -1rem;
   position: relative;
   width: 100%;
   height: 100%;
@@ -202,14 +221,16 @@ const Img = styled.img`
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   border: 3px solid ${({ theme }) => theme.primary};
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 868px) {
     max-width: 400px;
     max-height: 400px;
+    top: 1rem;
   }
 
   @media screen and (max-width: 640px) {
     max-width: 250px;
     max-height: 260px;
+    top: 0rem;
   }
 
   @keyframes img{
@@ -235,7 +256,7 @@ const Hero = () => {
         </HeroBg>
         <HeroInnerContainer>
           <HeroLeftContainer>
-            <Title>Hi, I am <br/>{Bio.name}</Title>
+            <Title>Hi, I am <br/>{Bio.name} 👋🏻</Title>
             <TextLoop>
               I am a
               <Span>
@@ -247,8 +268,9 @@ const Hero = () => {
                   }} />
               </Span>
             </TextLoop>
+            <Location>📍 Based in Manila, Philippines</Location>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+            <ResumeButton href={Bio.resume} target='display'>Check Resume 📄</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer>
             <Img src={Bio.meImage} alt="Hero-image" />
