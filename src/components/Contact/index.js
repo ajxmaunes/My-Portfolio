@@ -150,7 +150,7 @@ const Contact = () => {
   return (
     <Container>
         <Wrapper>
-            <Title id='contact'>Contact ✉️</Title>
+            <Title id='contact'>Contact 📫</Title>
             <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
             <Num>Phone 📞 +639311115722</Num>
             <ContactForm action="https://formspree.io/f/mqkwbazv" method="POST" autocomplete="off">

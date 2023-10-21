@@ -117,6 +117,31 @@ const Title = styled.div`
     line-height: 48px;
     margin-bottom: 8px;
   }
+
+  @media screen and (max-width: 640px) {
+    display: none;
+  }
+`;
+
+const Title2 = styled.div`
+  font-size: 50px;
+  font-weight: 700;
+  color: ${({ theme }) => theme.text_primary};
+  line-height: 68px;
+
+  @media screen and (max-width: 960px) {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 640px) {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 8px;
+  }
+
+  @media screen and (min-width: 640px) {
+    display: none;
+  }
 `;
 
 const TextLoop = styled.div`
@@ -257,6 +282,7 @@ const Hero = () => {
         <HeroInnerContainer>
           <HeroLeftContainer>
             <Title>Hi, I am <br/>{Bio.name} 👋🏻</Title>
+            <Title2>Hi, I am <br/>{Bio.name}</Title2>
             <TextLoop>
               I am a
               <Span>

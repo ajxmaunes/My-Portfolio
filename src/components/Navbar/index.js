@@ -71,6 +71,34 @@ const NavLogo = styled(linkR)`
     padding: 0 0px;
     margin-left: 0rem;
   }
+
+  @media screen and (max-width: 640px) {
+    display: none;
+  }
+`;
+
+const NavLogo2 = styled(linkR)`
+  width: 75%;
+  padding: 0 6px;
+  margin-left: 1rem;
+  display: flex;
+  justify-self: flex-start;
+  cursor: pointer;
+  text-decoration: none;
+  align-items: center;
+
+  @media screen and (max-width: 840px) {
+    width: 70%;
+  }
+
+  @media screen and (max-width: 640px) {
+    padding: 0 0px;
+    margin-left: -10px;
+  }
+
+  @media screen and (min-width: 640px) {
+    display: none;
+  }
 `;
 
 const NavItems = styled.ul`
@@ -192,6 +220,16 @@ const Navbar = () => {
               <Span style={{fontSize: '25px'}}>🔎AJDev</Span>
             </a>
           </NavLogo>
+          <NavLogo2 to="https://ajxmaunes.github.io/My-Portfolio/">
+            <a style={{ 
+              display: "flex", 
+              alignItems: "center", 
+              color: "black", 
+              marginBottom: '20;', 
+              cursor: 'pointer' }}>
+              <Span style={{fontSize: '25px'}}>AJDev</Span>
+            </a>
+          </NavLogo2>
           <MobileIcon>
             <FaBars onClick={() => {
               setOpen(!open)
@@ -214,8 +252,8 @@ const Navbar = () => {
         {
           open && (
             <MobileMenu open={open}>
-              <MobileMenuLinks href="#about" onClick={() => {
-              setOpen(!open)
+              <MobileMenuLinks href="#" onClick={() => {
+              setOpen(!open); window.scrollTo(0, 0)
               }}>About</MobileMenuLinks>
               <MobileMenuLinks href='#skills' onClick={() => {
                 setOpen(!open)
