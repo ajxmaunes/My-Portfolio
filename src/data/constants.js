@@ -8,7 +8,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ajxmaunes",
-    resume: "https://drive.google.com/file/d/1dObAkj5PAY8lGhPkTRnH6UjhspBI_dIu/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1YxNYIMLX9rsMPvG-x8VPesavHAuPJ3st/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186",
     twitter: "",
     insta: "https://www.instagram.com/_aljunem/",
@@ -72,6 +72,12 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
           link: "https://git-scm.com/",
+        },
+        {
+          name: "Figma",
+          image:
+            "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&q=75&fit=max&auto=format&dpr=2",
+          link: "https://www.figma.com",
         },
       ],
     },

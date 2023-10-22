@@ -53,14 +53,14 @@ const Desc = styled.div`
 `;
 
 const Num = styled.div`
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 6px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary};
 
     @media only screen and (max-width: 768px){
       text-align: center;
-      font-size: 16px;
+      font-size: 15px;
     }
 `;
 
@@ -152,7 +152,7 @@ const Contact = () => {
         <Wrapper>
             <Title id='contact'>Contact 📫</Title>
             <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-            <Num>Phone 📞 +639311115722</Num>
+            <Num>Phone 📞 <span style={{fontWeight: "500"}}>( +639311115722 )</span></Num>
             <ContactForm action="https://formspree.io/f/mqkwbazv" method="POST" autocomplete="off">
                 <ContactTitle>Email Me 🚀<a href = "mailto: aljunemaunes0@gmail.com" style={{ fontSize:"15px", fontWeight: "450", textAlign: "right", textDecoration: "none"}}> aljunemaunes0@gmail.com</a></ContactTitle>
                 <ContactInput placeholder="Your Email" name="from_email" required/>
