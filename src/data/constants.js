@@ -13,7 +13,7 @@ export const Bio = {
     twitter: "",
     insta: "https://www.instagram.com/_aljunem/",
     facebook: "https://www.facebook.com/ajxmaunes/",
-    meImage: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Me.jpg?token=GHSAT0AAAAAACFUJD2TZ2FQLCX3OOXC7MGMZIZKABQ",
+    meImage: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/1-min.jpg",
   };
   
   export const skills = [
@@ -102,7 +102,7 @@ export const Bio = {
       date: "Sep 2023 - Present",
       description:
         "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
-      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/FASHOFF.PNG",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/FASH-OFF.PNG",
       tags: ["React JS", "Tailwind CSS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/Ecommerce-I",
