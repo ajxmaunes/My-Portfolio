@@ -6,13 +6,13 @@ export const Bio = {
       "Programmer",
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for Web Development I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ajxmaunes",
     resume: "https://drive.google.com/file/d/1YxNYIMLX9rsMPvG-x8VPesavHAuPJ3st/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186",
     twitter: "",
-    insta: "https://www.instagram.com/_aljunem/",
-    facebook: "https://www.facebook.com/ajxmaunes/",
+    insta: "",
+    facebook: "",
     meImage: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/1-min.jpg",
   };
   

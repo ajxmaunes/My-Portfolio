@@ -3,7 +3,7 @@ export const darkTheme = {
     bgLight: "#1C1E27",
     primary:"#413F42",
     text_primary:"#413F42",
-    text_secondary:"#b1b2b3",
+    text_secondary:"#737373",
     card:"#171721",
     card_light: '#191924',
     button:"#854CE6",

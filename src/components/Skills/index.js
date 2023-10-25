@@ -42,7 +42,7 @@ const Title = styled.h1`
 const Desc = styled.div`
   font-size: 18px;
   text-align: center;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: ${({ theme }) => theme.text_secondary};
   
   @media (max-width: 768px) {
     font-size: 14px

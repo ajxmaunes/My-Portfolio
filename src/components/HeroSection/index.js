@@ -188,7 +188,7 @@ const SubTitle = styled.div`
   font-size: 18px;
   line-height: 32px;
   margin-bottom: 12px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: ${({ theme }) => theme.text_secondary};
     
   @media screen and (max-width: 960px) {
     text-align: center;
