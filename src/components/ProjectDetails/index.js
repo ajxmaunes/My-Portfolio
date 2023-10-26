@@ -27,7 +27,7 @@ border: 1px solid black;
 height: min-content;
 background-color: ${({ theme }) => theme.white};
 color: ${({ theme }) => theme.text_primary};
-padding: 30px;
+padding: 40px;
 display: flex;
 flex-direction: column;
 position: relative;
@@ -204,8 +204,8 @@ const Button = styled.a`
                     <CloseRounded
                         style={{
                             position: "absolute",
-                            top: "10px",
-                            right: "10px",
+                            top: "15px",
+                            right: "15px",
                             cursor: "pointer",
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}

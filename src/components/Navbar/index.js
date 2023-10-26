@@ -72,7 +72,7 @@ const NavLogo = styled(linkR)`
     margin-left: 0rem;
   }
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
@@ -91,12 +91,12 @@ const NavLogo2 = styled(linkR)`
     width: 70%;
   }
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     padding: 0 0px;
     margin-left: -10px;
   }
 
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 769px) {
     display: none;
   }
 `;
@@ -176,7 +176,7 @@ const SocialMediaIcons = styled.div`
   align-items: center;
   width: 80%;
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
