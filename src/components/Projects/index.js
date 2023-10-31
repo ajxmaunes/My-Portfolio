@@ -105,6 +105,7 @@ const Projects = ({openModal,setOpenModal}) => {
                 ))}
             </CardContainer>
         </Wrapper>
+        <div id='contact'>.</div>
     </Container>
   )
 }

@@ -72,7 +72,7 @@ const ContactForm = styled.form`
   flex-direction: column;
   background-color: ${({ theme }) => theme.white};
   padding: 32px;
-  border: 1px solid black;
+  border: 0.1px solid ${({ theme }) => theme.text_primary};
   border-radius: 10px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   margin-top: ;

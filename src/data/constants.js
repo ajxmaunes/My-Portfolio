@@ -99,7 +99,7 @@ export const Bio = {
     {
       id: 0,
       title: "FASH-OFF - Ecommerce",
-      date: "Sep 2023 - Present",
+      date: "Sep 2023",
       description:
         "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
       image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/FASH-OFF.PNG",
@@ -119,7 +119,7 @@ export const Bio = {
     {
       id: 1,
       title: "AventPH - Travel App",
-      date: "Sep 2023 - Present",
+      date: "Sep 2023",
       description:
         "A tourism or travel website serves as an information hub for prospective travelers planning a getaway. Today, people travel for a range of experiences—babymoons, staycations, voluntourism or bleisure—you name it. So, provide as much relevant information as possible to help users plan their trips.",
       image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/AdventPH-min.PNG",
@@ -139,7 +139,7 @@ export const Bio = {
     {
       id: 2,
       title: "Web for Music App",
-      date: "Aug 2023 - Present",
+      date: "Aug 2023",
       description:
         "Running a music website offers a great way to build your fan base and followers. It provides a platform to showcase your content as well as to interact with fans and other members of the music community.",
       image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/MusicApp-min.PNG",

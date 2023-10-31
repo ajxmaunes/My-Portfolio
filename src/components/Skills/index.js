@@ -98,6 +98,11 @@ const SkillItem = styled.a`
   font-weight: 400;
   cursor: pointer;
   text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+  }
 
   @media (max-width: 768px) {
     font-size: 14px;

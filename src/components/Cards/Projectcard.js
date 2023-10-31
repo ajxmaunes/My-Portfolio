@@ -7,12 +7,12 @@ const Card = styled.div`
     height: 530px;
     background-color: ${({ theme }) => theme.white};
     cursor: pointer;
-    border: 1px solid black;
+    border: 0.1px solid ${({ theme }) => theme.text_primary};
     border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     transition: all 0.5s ease-in-out;
-    padding: 26px 22px;
+    padding: 28px;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -36,7 +36,7 @@ const Image = styled.img`
     height: 250px;
     background-color: ${({ theme }) => theme.white};
     border-radius: 1px;
-    border: 1px solid black;
+    border: 0.1px solid ${({ theme }) => theme.text_primary};
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.4);
 
     @media only screen and (max-width: 768px){

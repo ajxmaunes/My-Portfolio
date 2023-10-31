@@ -296,7 +296,7 @@ const Hero = () => {
             </TextLoop>
             <Location>📍 Based in Manila, Philippines</Location>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target='display'>Check Resume 📄</ResumeButton>
+            <ResumeButton id="skills" href={Bio.resume} target='display'>Check Resume 📄</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer>
             <Img src={Bio.meImage} alt="Hero-image" />
