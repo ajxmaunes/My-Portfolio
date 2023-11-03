@@ -8,7 +8,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for Web Development I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ajxmaunes",
-    resume: "https://drive.google.com/file/d/1sX6Zvps9dxWjf6N4gEOU6IVZi3934rTh/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/14XW3JmuTv_joPfBmzk-NN2aBtSIRYKfN/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186",
     twitter: "",
     insta: "",
@@ -27,6 +27,18 @@ export const Bio = {
           link: "https://react.dev/",
         },
         {
+          name: "Next.js",
+          image:
+            "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+          link: "https://react.dev/",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          link: "https://en.wikipedia.org/wiki/JavaScript",
+        },
+        {
           name: "HTML",
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
           link: "https://en.wikipedia.org/wiki/HTML",
@@ -36,12 +48,6 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
           link: "https://en.wikipedia.org/wiki/CSS",
-        },
-        {
-          name: "JavaScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-          link: "https://en.wikipedia.org/wiki/JavaScript",
         },
         {
           name: "SASS",
@@ -77,9 +83,24 @@ export const Bio = {
           name: "Figma",
           image:
             "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&q=75&fit=max&auto=format&dpr=2",
-          link: "https://www.figma.com",
-        },
+          link: "https://nextjs.org/",
+        },  
       ],
+
+      learnings: [
+        {
+          name: "Next.js",
+          image:
+            "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+          link: "https://react.dev/",
+        },
+        {
+          name: "Figma",
+          image:
+            "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&q=75&fit=max&auto=format&dpr=2",
+          link: "https://nextjs.org/",
+        },
+      ]
     },
   ];
 

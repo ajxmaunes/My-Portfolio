@@ -120,6 +120,18 @@ const SkillImage = styled.img`
   height: 20px;
 `
 
+const Learning = styled.div`
+  display: none;
+  padding-top: 15px;
+  font-size: 16px;
+  text-align: center;
+  color: ${({ theme }) => theme.text_secondary};
+
+  @media (max-width: 768px) {
+    font-size: 14px
+  }
+`
+
 const Skills = () => {
   return (
     <Container id="skills">
@@ -139,6 +151,19 @@ const Skills = () => {
                   </SkillItem>
                 ))}
               </SkillList>
+
+              <Learning>
+                  Skill/s I currently working on :
+                  <SkillList>
+                    {item.learnings.map((learning) => (
+                      <SkillItem href={learning.link} target='display'>
+                        <SkillImage src={learning.image} />
+                        {learning.name}
+                      </SkillItem>
+                    ))}
+                  </SkillList>
+              </Learning>
+              
             </Skill>
           ))}
         </SkillsContainer>

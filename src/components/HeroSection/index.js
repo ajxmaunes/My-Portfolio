@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect'
 import HeroBgAnimation from '../HeroBgAnimation'
 
 const HeroContainer = styled.div`
-  top: -50px;
+  top: -40px;
   background-color: white;
   display: flex;
   justify-content: center;
