@@ -121,7 +121,7 @@ const SkillImage = styled.img`
 `
 
 const Learning = styled.div`
-  display: none;
+
   padding-top: 15px;
   font-size: 16px;
   text-align: center;
@@ -153,7 +153,7 @@ const Skills = () => {
               </SkillList>
 
               <Learning>
-                  Skill/s I currently working on :
+                  Skills I currently working on :
                   <SkillList>
                     {item.learnings.map((learning) => (
                       <SkillItem href={learning.link} target='display'>
