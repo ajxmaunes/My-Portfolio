@@ -86,7 +86,7 @@ export const Bio = {
           name: "Typescript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-          link: "https://react.dev/",
+          link: "https://www.typescriptlang.org/",
         },
         {
           name: "Figma",
