@@ -113,6 +113,26 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "AJDev Blog",
+      date: "Nov 2023",
+      description:
+        "A personal blog is an online platform where individuals share their thoughts, experiences, interests, and hobbies. It serves as a personal diary or commentary in a digital format, often written in a conversational and informal tone.",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/tn.jpg",
+      tags: ["Next.js", "Typescript", "Tailwind CSS"],
+      category: "web app",
+      github: "https://github.com/ajxmaunes/AJDev-Blog",
+      webapp: "https://ajdev-blog.vercel.app/",
+      member: [
+        {
+          name: "Aljune Maunes",
+          img: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Me.jpg?token=GHSAT0AAAAAACFUJD2T7NWQO2NVRXENJTEMZIZKEJA",
+          linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186/",
+          github: "https://github.com/ajxmaunes",
+        },
+      ],
+    },
+    {
+      id: 1,
       title: "FASH-OFF - Ecommerce",
       date: "Sep 2023",
       description:
@@ -132,7 +152,7 @@ export const Bio = {
       ],
     },
     {
-      id: 1,
+      id: 2,
       title: "AventPH - Travel App",
       date: "Sep 2023",
       description:
@@ -152,7 +172,7 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Web for Music App",
       date: "Aug 2023",
       description:
@@ -172,7 +192,7 @@ export const Bio = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Small E-Commerce Web",
       date: "July 2021",
       description:
