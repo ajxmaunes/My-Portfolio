@@ -193,6 +193,26 @@ export const Bio = {
     },
     {
       id: 4,
+      title: "My Portfolio",
+      date: "July 2023",
+      description:
+        "A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you. In addition, it's one of the best ways to express your personality, experience, and capabilities.",
+      image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/portfolio.PNG",
+      tags: ["React JS", "Vanilla CSS"],
+      category: "web app",
+      github: "https://github.com/ajxmaunes/My-Portfolio",
+      webapp: "https://aljunemaunes.info/",
+      member: [
+        {
+          name: "Aljune Maunes",
+          img: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/Me.jpg?token=GHSAT0AAAAAACFUJD2T7NWQO2NVRXENJTEMZIZKEJA",
+          linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186/",
+          github: "https://github.com/ajxmaunes",
+        },
+      ],
+    },
+    {
+      id: 5,
       title: "Small E-Commerce Web",
       date: "July 2021",
       description:

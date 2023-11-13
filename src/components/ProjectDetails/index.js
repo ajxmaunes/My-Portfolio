@@ -74,9 +74,15 @@ const Image = styled.img`
     margin-top: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
     border: 1px solid black;
+    cursor: pointer;
     @media only screen and (max-width: 600px) {
         margin-top: 25px;
         height: 180px;
+    }
+
+    &:hover {
+        filter: brightness(90%);
+        transition: all .2s ease;
     }
 `;
 
@@ -210,7 +216,9 @@ const Button = styled.a`
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    <Image src={project?.image} />
+                    <a href={project?.webapp} target='new'>
+                        <Image src={project?.image} />
+                    </a>
                     <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
                     <Tags>
