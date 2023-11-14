@@ -152,7 +152,7 @@ const Contact = () => {
         <Wrapper>
             <Title id='contact'>Contact 📫</Title>
             <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-            <Num>Phone 📞 <span style={{fontWeight: "500"}}>( +639311115722 )</span></Num>
+            <Num>Phone 📞 <span style={{fontWeight: "500"}}>( +63 9311115722 )</span></Num>
             <ContactForm action="https://formspree.io/f/mqkwbazv" method="POST" autocomplete="off">
                 <ContactTitle>Email Me 🚀<a href = "mailto: aljunemaunes0@gmail.com" style={{ fontSize:"15px", fontWeight: "450", textAlign: "right", textDecoration: "none"}}> aljunemaunes0@gmail.com</a></ContactTitle>
                 <ContactInput placeholder="Your Email" name="from_email" required/>

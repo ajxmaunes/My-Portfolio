@@ -32,7 +32,7 @@ display: flex;
 flex-direction: column;
 position: relative;
 @media only screen and (max-width: 600px) {
-    padding: 14px;
+    padding: 20px;
 }
 `;
 
@@ -70,6 +70,7 @@ const Desc = styled.div`
 
 const Image = styled.img`
     width: 100%;
+    height: auto;
     object-fit: cover;
     margin-top: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
@@ -77,7 +78,6 @@ const Image = styled.img`
     cursor: pointer;
     @media only screen and (max-width: 600px) {
         margin-top: 25px;
-        height: 180px;
     }
 
     &:hover {

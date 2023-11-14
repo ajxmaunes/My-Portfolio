@@ -8,7 +8,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for Web Development I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ajxmaunes",
-    resume: "https://drive.google.com/file/d/1KWJW_G9m-gBDFDMe0xCgqdLXrSxBOQmS/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1OWcq82dBu-URsKU2UkD-Z44lasvHkJ-2/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186",
     twitter: "",
     insta: "",
@@ -60,12 +60,6 @@ export const Bio = {
           image:
             "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
           link: "https://getbootstrap.com/", 
-        },
-        {
-          name: "Material UI",
-          image:
-            "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
-          link: "https://mui.com/",
         },
         {
           name: "Git",

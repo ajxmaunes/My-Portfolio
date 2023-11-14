@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Card = styled.div`
     width: 530px;
-    height: 510px;
+    height: auto;
     background-color: ${({ theme }) => theme.white};
     cursor: pointer;
     border: 0.1px solid ${({ theme }) => theme.text_primary};
@@ -25,7 +25,7 @@ const Card = styled.div`
     @media only screen and (max-width: 768px){
         border-radius: 5px;
         width: 340px;
-        height: 430px;
+        height: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding: 24px 18px;
     }
@@ -33,14 +33,14 @@ const Card = styled.div`
 
 const Image = styled.img`
     width: 100%;
-    height: 230px;
+    height: auto;
     background-color: ${({ theme }) => theme.white};
     border-radius: 1px;
     border: 0.1px solid ${({ theme }) => theme.text_primary};
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.4);
 
     @media only screen and (max-width: 768px){
-        height: 180px;
+        height: 150px;
     }
 `;
 

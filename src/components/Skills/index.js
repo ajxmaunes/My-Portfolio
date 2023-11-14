@@ -64,15 +64,15 @@ const Skill = styled.div`
   background-color: white;
   border: 0.1px solid ${({ theme }) => theme.text_primary};
   border-radius: 10px;
-  padding: 18px 36px;
+  padding: 18px 25px;
 
-  @media (max-width: 768px) {
-    max-width: 400px;
+  @media (max-width: 868px) {
+    max-width: 730px;
     padding: 10px 36px;
   }
 
   @media (max-width: 500px) {
-    max-width: 330px;
+    max-width: 340px;
     padding: 10px 10px;
   }
 `;
