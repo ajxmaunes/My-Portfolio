@@ -108,7 +108,7 @@ export const Bio = {
     {
       id: 0,
       title: "AJDev Blog",
-      date: "Nov 2023",
+      date: "Nov 2023 ( Ongoing Project )",
       description:
         "A personal blog is an online platform where individuals share their thoughts, experiences, interests, and hobbies. It serves as a personal diary or commentary in a digital format, often written in a conversational and informal tone.",
       image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/BLOG.PNG",
