@@ -150,7 +150,7 @@ const MobileMenu = styled.div`
   padding: 30px 40px 20px 40px;
   border-radius: 0 0 10px 10px;
   background: ${({ theme }) => theme.white};
-  transition: all 0.3s ease-in-out;
+  transition: all 0.334s ease-in-out;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
   opacity: ${({ open }) => (open ? "1" : "0")};
   z-index: ${({ open }) => (open ? "1" : "-1")};
