@@ -112,7 +112,7 @@ export const Bio = {
       description:
         "A personal blog is an online platform where individuals share their thoughts, experiences, interests, and hobbies. It serves as a personal diary or commentary in a digital format, often written in a conversational and informal tone.",
       image: "https://raw.githubusercontent.com/ajxmaunes/Storage/main/ajdevblog.PNG",
-      tags: ["Next.js", "Typescript", "Tailwind CSS"],
+      tags: ["Next.js", "Typescript", "REST API", "Tailwind CSS"],
       category: "web app",
       github: "https://github.com/ajxmaunes/AJDev-Blog",
       webapp: "https://ajdev-blog.vercel.app/",
