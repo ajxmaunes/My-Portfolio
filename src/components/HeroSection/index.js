@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect'
 import HeroBgAnimation from '../HeroBgAnimation'
 
 const HeroContainer = styled.div`
-  top: -40px;
+  top: -45px;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -209,7 +209,7 @@ const ResumeButton = styled.a`
   width: 95%;
   max-width: 200px;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px;
   color: ${({ theme }) => theme.primary};
   border: 1px solid ${({ theme }) => theme.primary};
   border-radius: 10px;
@@ -220,10 +220,9 @@ const ResumeButton = styled.a`
   background: transparent; 
   
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     transition: all 0.4s ease-in-out;
     box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
     color: #205295;
     border: 1px solid #205295;
   }
