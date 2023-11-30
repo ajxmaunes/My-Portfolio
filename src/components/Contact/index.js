@@ -89,6 +89,12 @@ const ContactTitle = styled.div`
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
 
+  @media only screen and (min-width: 768px){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   @media only screen and (max-width: 768px){
     text-align: center;
     font-size: 22px;
