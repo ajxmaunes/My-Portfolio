@@ -27,10 +27,22 @@ export const Bio = {
           link: "https://react.dev/",
         },
         {
+          name: "Next.js",
+          image:
+            "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+          link: "https://nextjs.org/",
+        },
+        {
           name: "JavaScript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
           link: "https://en.wikipedia.org/wiki/JavaScript",
+        },
+        {
+          name: "Typescript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+          link: "https://www.typescriptlang.org/",
         },
         {
           name: "HTML",
@@ -66,6 +78,12 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
           link: "https://git-scm.com/",
+        },
+        {
+          name: "Figma",
+          image:
+            "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&q=75&fit=max&auto=format&dpr=2",
+          link: "https://www.figma.com/",
         },
       ],
 

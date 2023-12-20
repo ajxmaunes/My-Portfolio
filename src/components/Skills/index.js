@@ -152,7 +152,7 @@ const Skills = () => {
                 ))}
               </SkillList>
 
-              <Learning>
+              {/* <Learning>
                   Skills I currently working on :
                   <SkillList>
                     {item.learnings.map((learning) => (
@@ -162,7 +162,7 @@ const Skills = () => {
                       </SkillItem>
                     ))}
                   </SkillList>
-              </Learning>
+              </Learning> */}
               
             </Skill>
           ))}
