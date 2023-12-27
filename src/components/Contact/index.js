@@ -11,6 +11,7 @@ const Container = styled.div`
   align-items: center;
   @media (max-width: 960px) {
       padding: 0px;
+      margin: 0 10px;
   }
 `
 
@@ -67,19 +68,19 @@ const Num = styled.div`
 
 const ContactForm = styled.form`
   width: 95%;
-  max-width: 600px;
+  max-width: 650px;
   display: flex;
   flex-direction: column;
   background-color: ${({ theme }) => theme.white};
   padding: 32px;
-  border: 0.1px solid ${({ theme }) => theme.text_primary};
+  border: 1px solid ${({ theme }) => theme.text_primary};
   border-radius: 10px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   margin-top: ;
   gap: 12px;
 
-  @media only screen and (max-width: 768px){
-    padding: 12px;
+  @media only screen and (max-width: 668px){
+    padding: 15px;
   }
 `;
 

@@ -7,7 +7,7 @@ const Card = styled.div`
     height: auto;
     background-color: ${({ theme }) => theme.white};
     cursor: pointer;
-    border: 0.1px solid ${({ theme }) => theme.text_primary};
+    border: 1px solid ${({ theme }) => theme.text_primary};
     border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
     overflow: hidden;
@@ -22,12 +22,13 @@ const Card = styled.div`
         box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
     }
 
-    @media only screen and (max-width: 768px){
-        border-radius: 5px;
-        width: 340px;
+    @media only screen and (max-width: 668px){
+        border-radius: 10px;
+        width: auto;
+        margin: 0 20px;
         height: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        padding: 24px 18px;
+        padding: 20px;
     }
 `;
 
@@ -39,8 +40,8 @@ const Image = styled.img`
     border: 0.1px solid ${({ theme }) => theme.text_primary};
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.4);
 
-    @media only screen and (max-width: 768px){
-        height: 150px;
+    @media only screen and (max-width: 508px){
+        height: auto;
     }
 `;
 
