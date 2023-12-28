@@ -14,7 +14,6 @@ import Footer from './components/Footer';
 import ProjectDetails from "./components/ProjectDetails";
 
 const Body = styled.div`
-    background-color: #F9F9F9;
     width: 100%;
     overflow-x: hidden;
 `;

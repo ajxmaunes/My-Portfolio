@@ -99,7 +99,7 @@ const HeroRightContainer = styled.div`
 
   @media screen and (max-width: 640px) {
     order: 1;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 `
 

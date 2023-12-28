@@ -34,7 +34,7 @@ const Title = styled.h1`
 
 
   @media (max-width: 768px) {
-    margin-top: 12px;
+    margin-top: 20px;
     font-size: 28px
   }
 `;
