@@ -45,7 +45,8 @@ const Desc = styled.div`
   color: ${({ theme }) => theme.text_secondary};
   
   @media (max-width: 768px) {
-    font-size: 14px
+    font-size: 14px;
+    margin: 0 20px;
   }
 `;
 
@@ -53,7 +54,7 @@ const SkillsContainer = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 10px;
 
   justify-content: center;
 `;

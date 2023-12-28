@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect'
 import HeroBgAnimation from '../HeroBgAnimation'
 
 const HeroContainer = styled.div`
-  top: -45px;
+  top: -50px;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -22,6 +22,7 @@ const HeroContainer = styled.div`
     padding: 25px 16px;
     top: 0px;
     clip-path: none;
+    margin: 0 10px;
   }
 
   z-index: 1;
@@ -185,7 +186,7 @@ const Location = styled.div`
 `;
 
 const SubTitle = styled.div`
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
   margin-bottom: 12px;
   color: ${({ theme }) => theme.text_secondary};
@@ -196,8 +197,9 @@ const SubTitle = styled.div`
 
     
   @media screen and (max-width: 640px) {
+    text-align: justify;
     font-size: 15px;
-    line-height: 32px;
+    line-height: 28px;
   } 
 `;
 

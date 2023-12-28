@@ -37,7 +37,7 @@ const Image = styled.img`
     height: auto;
     background-color: ${({ theme }) => theme.white};
     border-radius: 1px;
-    border: 0.1px solid ${({ theme }) => theme.text_primary};
+    border: 1px solid ${({ theme }) => theme.text_primary};
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.4);
 
     @media only screen and (max-width: 508px){

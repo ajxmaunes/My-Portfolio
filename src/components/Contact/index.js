@@ -137,19 +137,20 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: #BDBDBD;
+  background: #205295;
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
   border: none;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.white};
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
 
   &:hover {
-    background: #205295;
-    color: ${({ theme }) => theme.white};     
+    background: ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.white};   
+    transition: all 0.3s ease-in-out;  
   }
 `;
 

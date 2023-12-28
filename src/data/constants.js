@@ -1,12 +1,12 @@
 export const Bio = {
     name: "Aljune Maunes",
     roles: [
-      "ReactJS Developer",
+      "Front-end Developer",
       "UI/UX Designer",
       "Programmer",
     ],
     description:
-      "Graduate of Computer Science. I am a motivated and versatile individual, always eager to take on new challenges. With a passion for Web Development I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "Graduate of Bachelor of Science in Computer Science. I am an enthusiastic and adaptable person, constantly seeking new opportunities to grow. With a passion for Web Development, I am committed to producing top-notch outcomes. Armed with a positive outlook and a mindset geared towards continuous improvement, I am prepared to contribute significantly and accomplish notable achievements.",
     github: "https://github.com/ajxmaunes",
     resume: "https://drive.google.com/file/d/1IezPRXZCURvhP_CEwROAAbL4f0cHumXF/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/aljune-maunes-479a83186",
