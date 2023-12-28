@@ -13,7 +13,7 @@ const HeroContainer = styled.div`
   height: 750px;
 
   @media screen and (max-width: 960px) {
-    padding: 66px 16px;
+    padding: 66px 20px 46px 20px;
     clip-path: none;
     height: 100%;
   }
@@ -186,7 +186,7 @@ const Location = styled.div`
 `;
 
 const SubTitle = styled.div`
-  font-size: 16px;
+  font-size: 17px;
   line-height: 32px;
   margin-bottom: 12px;
   color: ${({ theme }) => theme.text_secondary};

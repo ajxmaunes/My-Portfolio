@@ -14,9 +14,14 @@ import Footer from './components/Footer';
 import ProjectDetails from "./components/ProjectDetails";
 
 const Body = styled.div`
+    background: #f9f9f9;
     width: 100%;
     overflow-x: hidden;
 
+    @media screen and (max-width: 640px) {
+      background: rgb(249,249,249);
+      background: linear-gradient(0deg, rgba(249,249,249,1) 0%, rgba(255,255,255,1) 90%);
+    }
 `;
 
 const Wrapper = styled.div`
