@@ -16,6 +16,7 @@ import ProjectDetails from "./components/ProjectDetails";
 const Body = styled.div`
     width: 100%;
     overflow-x: hidden;
+
 `;
 
 const Wrapper = styled.div`
