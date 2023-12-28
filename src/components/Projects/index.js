@@ -48,7 +48,8 @@ const Desc = styled.div`
   color: ${({ theme }) => theme.text_secondary};
 
   @media (max-width: 768px) {
-    font-size: 14px
+    font-size: 14px;
+    margin: 0 20px;
   }
 `;
 
@@ -77,7 +78,7 @@ export const ToggleButton = styled.div`
 `
 
 const CardContainer = styled.div`
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
