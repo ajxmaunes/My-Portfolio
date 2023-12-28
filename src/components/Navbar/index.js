@@ -150,10 +150,10 @@ const MobileMenu = styled.div`
   padding: 30px 40px 20px 40px;
   border-radius: 0 0 10px 10px;
   background: ${({ theme }) => theme.white};
-  transition: all 0.334s ease-in-out;
+  transition: all 0.2s ease-in-out;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
-  opacity: ${({ open }) => (open ? "1" : "0")};
-  z-index: ${({ open }) => (open ? "1" : "-1")};
+  margin-top: ${({ open }) => (open ? "0" : "-26rem")};
+  z-index: -1;
 `;
 
 const MobileMenuLinks = styled.a`
@@ -209,6 +209,27 @@ const Navbar = () => {
   const [open, setOpen] = React.useState(false)
   return (
     <Nav className='nav'>
+        <MobileMenu open={open}>
+              <MobileMenuLinks href="#" onClick={() => {
+              setOpen(!open); window.scrollTo(0, 0)
+              }}>About</MobileMenuLinks>
+              <MobileMenuLinks href='#skills' onClick={() => {
+                setOpen(!open)
+              }}>Skills</MobileMenuLinks>
+              <MobileMenuLinks href='#projects' onClick={() => {
+                setOpen(!open)
+              }}>Projects</MobileMenuLinks>
+              <MobileMenuLinks href='#contact' onClick={() => {
+                setOpen(!open)
+              }}>Contact</MobileMenuLinks>
+              <MobileMenuLinks>
+                <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
+                <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+              </MobileMenuLinks>
+        </MobileMenu>
+
         <NavContainer>
           <NavLogo to="https://ajxmaunes.github.io/My-Portfolio/">
             <a style={{ 
@@ -248,31 +269,10 @@ const Navbar = () => {
                 <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
                 <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
           </SocialMediaIcons>
+
         </NavContainer>
-        {
-          open && (
-            <MobileMenu open={open}>
-              <MobileMenuLinks href="#" onClick={() => {
-              setOpen(!open); window.scrollTo(0, 0)
-              }}>About</MobileMenuLinks>
-              <MobileMenuLinks href='#skills' onClick={() => {
-                setOpen(!open)
-              }}>Skills</MobileMenuLinks>
-              <MobileMenuLinks href='#projects' onClick={() => {
-                setOpen(!open)
-              }}>Projects</MobileMenuLinks>
-              <MobileMenuLinks href='#contact' onClick={() => {
-                setOpen(!open)
-              }}>Contact</MobileMenuLinks>
-              <MobileMenuLinks>
-                <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
-                <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-                <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-                <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-              </MobileMenuLinks>
-            </MobileMenu>
-          )
-        }
+
+        
     </Nav>
   )
 };
