@@ -123,7 +123,7 @@ const ContactInputMessage = styled.textarea`
   padding: 12px 16px;
   display: block;
   width: 100%;
-  overflow: hidden;
+  overflow-y: scroll;
   resize: vertical;
   min-height: 120px;
   line-height: 20px;
@@ -162,7 +162,7 @@ const Contact = () => {
             <Num>Phone 📞 <span style={{fontWeight: "500"}}>( +63 9311115722 )</span></Num>
             <ContactForm action="https://formspree.io/f/mqkwbazv" method="POST" autocomplete="off">
                 <ContactTitle>Email Me 🚀<a href = "mailto: aljunemaunes0@gmail.com" style={{ fontSize:"15px", fontWeight: "450", textAlign: "right", textDecoration: "none"}}> aljunemaunes0@gmail.com</a></ContactTitle>
-                <ContactInput placeholder="Your Email" name="from_email" required/>
+                <ContactInput placeholder="Your Email" name="from_email" type="email" required/>
                 <ContactInput placeholder="Your Name" name="from_name" required/>
                 <ContactInput placeholder="Subject" name="subject" required/>
                 <ContactInputMessage placeholder="Message" row="4" name="message" required/>

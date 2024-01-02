@@ -197,9 +197,8 @@ const SubTitle = styled.div`
 
     
   @media screen and (max-width: 640px) {
-    text-align: justify;
     font-size: 15px;
-    line-height: 28px;
+    line-height: 25px;
     margin-bottom: 20px;
   } 
 `;

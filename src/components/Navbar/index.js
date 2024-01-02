@@ -152,7 +152,7 @@ const MobileMenu = styled.div`
   background: ${({ theme }) => theme.white};
   transition: all 0.2s ease-in-out;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
-  margin-top: ${({ open }) => (open ? "0" : "-26rem")};
+  margin-top: ${({ open }) => (open ? "0" : "-27rem")};
   z-index: -1;
 `;
 

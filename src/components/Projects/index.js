@@ -50,6 +50,7 @@ const Desc = styled.div`
   @media (max-width: 768px) {
     font-size: 14px;
     margin: 0 20px;
+    
   }
 `;
 
@@ -78,12 +79,16 @@ export const ToggleButton = styled.div`
 `
 
 const CardContainer = styled.div`
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 28px;
+
+    @media (max-width: 768px) {
+      margin-top: 10px;
+  }
 `
 
 const Projects = ({openModal,setOpenModal}) => {
